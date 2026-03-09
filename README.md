@@ -5,8 +5,8 @@ Este documento detalla las funcionalidades actuales y futuras del proyecto
 ## 🛠️ Estado del Proyecto Desarrollo
 
 ### 1. Motor de Atributos y Estadísticas 
-- [ ] **Sistema de Atributos:** Implementación de las 6 estadísticas base (STR, DEX, CON, INT, WIS, CHA).
-- [ ] **Calculadora de Modificadores:** Lógica automática para obtener bonos (ej. 10 -> 0, 12 -> +1).
+- [x] **Sistema de Atributos:** Implementación de las 6 estadísticas base (STR, DEX, CON, INT, WIS, CHA).
+- [x] **Calculadora de Modificadores:** Lógica automática para obtener bonos (ej. 10 -> 0, 12 -> +1).
 - [ ] **Gestión de Salud (HP):** Sistema de vida actual, máxima y puntos temporales.
 - [ ] **Cálculo de CA:** Lógica para Clase de Armadura según armadura equipada y destreza.
 - [ ] **Iniciativa y Velocidad:** Cálculo dinámico basado en raza y stats.
