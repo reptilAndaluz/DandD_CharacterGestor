@@ -1,0 +1,119 @@
+
+# --- Archivos compilados y paquetes ---
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+
+# --- Logs y Reportes de Error de la Máquina Virtual de Java ---
+*.log
+hs_err_pid*
+replay_pid*
+
+# HERRAMIENTAS DE CONSTRUCCIÓN (BUILD TOOLS)
+
+
+# --- Maven ---
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+# Excepciones para no borrar el Wrapper de Maven 
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# --- Gradle ---
+.gradle/
+build/
+# Excepciones para no borrar el Wrapper de Gradle
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# =========================================================================
+# IDEs 
+# =========================================================================
+
+# --- IntelliJ IDEA ---
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# --- Eclipse ---
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+# --- NetBeans ---
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# --- VS Code ---
+.vscode/
+*.code-workspace
+
+# =========================================================================
+# SISTEMAS OPERATIVOS 
+# =========================================================================
+
+# --- macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# --- Windows ---
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.lnk
+Desktop.ini
+
+# --- Linux ---
+*~
+.fuse_hidden*
+.directory
+
+# =========================================================================
+# SECURITY 
+# =========================================================================
+.env
+.env.*
+*.pem
+*.key
+secrets.yml
+config/application.yml
+
+# =========================================================================
+# DATABASES
+# =========================================================================
+*.sqlite
+*.db
+*.h2.db
+.sonarlint/
