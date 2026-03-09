@@ -15,7 +15,7 @@ Este documento detalla las funcionalidades actuales y futuras del proyecto
 - [ ] **Sistema de Razas:** Aplicación de rasgos (Ej: Visión en la oscuridad, bonos de stat).
 - [ ] **Gestión de Clases:** Manejo de niveles, Dados de Golpe y rasgos de clase.
 - [ ] **Bono de Competencia:** Escalado automático por nivel ($+2$ a $+6$).
-- [ ] **Habilidades (Skills):** Listado de las 18 habilidades con cálculo de bonos y maestría (Expertise).
+- [ ] **Habilidades (Skills):** Listado de las 18 habilidades con cálculo de bonos y maestría.
 
 ### 3. Inventario y Equipo
 - [ ] **Base de Datos de Objetos:** Clase abstracta `Item` y subclases `Weapon` y `Armor`.
@@ -26,7 +26,7 @@ Este documento detalla las funcionalidades actuales y futuras del proyecto
 ### 4. Magia y specs
 - [ ] **Spellbook:** Lista de hechizos o artes marciales conocidas y preparados.
 - [ ] **Gestores de Slots:** Contador de espacios de conjuro por nivel (1º a 9º).
-- [ ] **Gestor de habilidades aprendidas de un Spec**
+- [ ] **Gestor de habilidades:** Lista de habilidades aprendidas dentro de un mismo Spec
 - [ ] **Lógica de Descanso:** Botón de "Descanso Largo" para recuperar slots, HP y cooldowns.
 
 ### 5. Utilidades y Persistencia
